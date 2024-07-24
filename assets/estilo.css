@@ -66,6 +66,9 @@ gap: 20px;
 	background-position: center center;
 
 width: 30%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 .banner ul {
