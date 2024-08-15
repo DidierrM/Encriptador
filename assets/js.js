@@ -3,21 +3,21 @@ function encriptar(texto) {
           alert("El texto no puede contener mayúsculas o vocales acentuadas");
     } else {
       return texto
-        .replace(/a/g, "aild")
-        .replace(/e/g, "sadau")
-        .replace(/i/g, "rentk")
-        .replace(/o/g, "oktobm")
-        .replace(/u/g, "scolc");
-    }
+      .replace(/e/g, "entsr")
+      .replace(/i/g, "imqs")
+      .replace(/a/g, "af")
+      .replace(/o/g, "oter")
+      .replace(/u/g, "ugat");
   }
-  
-  function desencriptar(texto) {
-    return texto
-      .replace(/aild/g, "a")
-      .replace(/sadau/g, "e")
-      .replace(/rentk/g, "i")
-      .replace(/oktobm/g, "o")
-      .replace(/scolc/g, "u");
+}
+
+function desencriptar(texto) {
+  return texto
+    .replace(/entsr/g, "e")
+    .replace(/imqs/g, "i")
+    .replace(/af/g, "a")
+    .replace(/oter/g, "o")
+    .replace(/ugat/g, "u");
   }
   
   function clickCopiarTexto() {
@@ -35,7 +35,7 @@ function encriptar(texto) {
           mensajeConfirmacion.style.color = "green";
           mensajeConfirmacion.style.position = "absolute";
           mensajeConfirmacion.style.bottom = "-1px";
-          mensajeConfirmacion.style.left = "0";
+          mensajeConfirmacion.style.left = "-10";
           mensajeConfirmacion.style.right = "0";
           mensajeConfirmacion.style.textAlign = "center";
           document.querySelector(".contenedor-resultado").appendChild(mensajeConfirmacion);
