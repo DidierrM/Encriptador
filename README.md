@@ -1,1 +1,1 @@
-este es el readme de proyecto
+Hola, este es el codigo fuente del desafio Encriptador desarrollado por mí, siguiendo las guias y conocimientos dados por la gente de Alura a travez del curso de Principiante, asi tambien como el intercambio de informacion con compañeros del curso en Canal de Discord. Espero que este codigo sea de ayuda a quienes lo necesiten.
